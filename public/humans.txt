@@ -1,0 +1,19 @@
+# People
+
+  Antuan Khanna
+  Development & Design
+  www.anutankhanna.com
+
+
+# Technology
+
+  Node.js
+  www.nodejs.org
+
+  GitHub
+  www.github.com
+
+
+# Thanks
+
+  Vladislav Gritsenko

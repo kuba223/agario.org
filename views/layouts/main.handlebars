@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{title}}">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+    <script async defer src="//apis.google.com/js/platform.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <section id="header_info">
+            <a class="logo" href="/">
+                <h1>{{title}}</h1>
+            </a>
+            <div id="soc">
+                <div class="fb-like" data-href="https://www.facebook.com/696404350464172" data-layout="button" data-action="like" data-show-faces="false" data-share="false">
+                </div>
+                <a class="twitter-follow-button" href="https://twitter.com/agario_org" data-show-count="false" data-show-screen-name="false"></a>
+                <div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/u/0/115075175698670036507" data-rel="author"></div>
+            </div>
+            <span>Game where you must increase the size of your own circular cell by engulfing other player’s cells. Notable for simple addictive gameplay.</span>
+            <a target="_blank" class="button enabled" id="button-install" href="#">Play for Free</a>
+        </section>
+        <aside id="header_notification">
+            <span>Game is under active development now, please, leave your feedback on the <a href="/">main page</a></span>
+        </aside>
+    </header>
+
+    <main>
+        <aside id="sidebar">
+            <nav>
+                {{> sidebar}}
+            </nav>
+        </aside>
+        <section class="content">
+            {{{ body }}} 
+            {{#unless home_page}}
+	            <div class="artilce-comments">
+	                <a class="button enabled" href="/#info" style="">Discuss it</a>
+	            </div>
+            {{/unless}}
+        </section>
+    </main>
+
+    <footer>
+        <span>© 2015 Agario Extended<br><a href="/privacy/">Privacy Policy</a></span>
+    </footer>
+
+    <div id="fb-root"></div>
+</body>
+
+</html>

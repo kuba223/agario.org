@@ -1,0 +1,27 @@
+{
+  "name": "Agario Extended",
+  "version": "1.0.0",
+  "description": "Agario Extended",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "~4.12.3",
+    "express-handlebars": "~2.0.0",
+    "express-url": "^1.1.1"
+  },
+  "author": {
+    "name": "Antuan Khanna",
+    "email": "antuan@antuankhanna.com",
+    "url": "http://www.antuankhanna.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntuanKhanna/agario.org"
+  },
+  "bugs": {
+    "url": "https://github.com/AntuanKhanna/agario.org/issues"
+  }
+}
