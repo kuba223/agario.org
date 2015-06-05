@@ -1,7 +1,7 @@
 {
-  "name": "Agario Extended",
+  "name": "Agario_Extended",
   "version": "1.0.0",
-  "description": "Agario Extended",
+  "description": "Agario Extended website",
   "main": "server.js",
   "scripts": {
     "start": "node server"
