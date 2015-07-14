@@ -4,6 +4,10 @@
   Development & Design
   www.anutankhanna.com
 
+  Vladislav Gritsenko
+  Development
+  www.github.com/inlife
+
 
 # Technology
 
@@ -12,8 +16,3 @@
 
   GitHub
   www.github.com
-
-
-# Thanks
-
-  Vladislav Gritsenko
